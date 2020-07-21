@@ -11,7 +11,43 @@
 		67F4F8A624C6133C00D1475B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4F8A524C6133C00D1475B /* ViewController.swift */; };
 		67F4F8A824C6133D00D1475B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8A724C6133D00D1475B /* Assets.xcassets */; };
 		67F4F8AB24C6133D00D1475B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8A924C6133D00D1475B /* Main.storyboard */; };
+		67F4F8BA24C6134A00D1475B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F4F8B924C6134A00D1475B /* Cocoa.framework */; };
+		67F4F8BD24C6134A00D1475B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */; };
+		67F4F8C024C6134A00D1475B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8BF24C6134A00D1475B /* _locales */; };
+		67F4F8C224C6134A00D1475B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8C124C6134A00D1475B /* images */; };
+		67F4F8C424C6134A00D1475B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8C324C6134A00D1475B /* manifest.json */; };
+		67F4F8D324C6134A00D1475B /* live-preview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67F4F8B724C6134A00D1475B /* live-preview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67F4F8DE24C6135F00D1475B /* css in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8D824C6135D00D1475B /* css */; };
+		67F4F8DF24C6135F00D1475B /* html in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8D924C6135D00D1475B /* html */; };
+		67F4F8E024C6135F00D1475B /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8DA24C6135D00D1475B /* fonts */; };
+		67F4F8E124C6135F00D1475B /* img in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8DB24C6135D00D1475B /* img */; };
+		67F4F8E224C6135F00D1475B /* js in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8DC24C6135E00D1475B /* js */; };
+		67F4F8E324C6135F00D1475B /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8DD24C6135F00D1475B /* vendor */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F4F8D124C6134A00D1475B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F4F89824C6133C00D1475B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F4F8B624C6134A00D1475B;
+			remoteInfo = "live-preview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67F4F8D724C6134A00D1475B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67F4F8D324C6134A00D1475B /* live-preview.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		67F4F8A024C6133C00D1475B /* asciidoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciidoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +57,20 @@
 		67F4F8AA24C6133D00D1475B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67F4F8AC24C6133D00D1475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F4F8AD24C6133D00D1475B /* asciidoctor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asciidoctor.entitlements; sourceTree = "<group>"; };
+		67F4F8B724C6134A00D1475B /* live-preview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "live-preview.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F4F8B924C6134A00D1475B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		67F4F8BF24C6134A00D1475B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		67F4F8C124C6134A00D1475B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		67F4F8C324C6134A00D1475B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		67F4F8CF24C6134A00D1475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F4F8D024C6134A00D1475B /* live_preview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = live_preview.entitlements; sourceTree = "<group>"; };
+		67F4F8D824C6135D00D1475B /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		67F4F8D924C6135D00D1475B /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		67F4F8DA24C6135D00D1475B /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		67F4F8DB24C6135D00D1475B /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		67F4F8DC24C6135E00D1475B /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		67F4F8DD24C6135F00D1475B /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vendor; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +81,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67F4F8B424C6134A00D1475B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F4F8BA24C6134A00D1475B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				67F4F8A224C6133C00D1475B /* asciidoctor */,
+				67F4F8BB24C6134A00D1475B /* live-preview */,
+				67F4F8B824C6134A00D1475B /* Frameworks */,
 				67F4F8A124C6133C00D1475B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				67F4F8A024C6133C00D1475B /* asciidoctor.app */,
+				67F4F8B724C6134A00D1475B /* live-preview.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +124,41 @@
 			path = asciidoctor;
 			sourceTree = "<group>";
 		};
+		67F4F8B824C6134A00D1475B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F4F8B924C6134A00D1475B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F4F8BB24C6134A00D1475B /* live-preview */ = {
+			isa = PBXGroup;
+			children = (
+				67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */,
+				67F4F8CF24C6134A00D1475B /* Info.plist */,
+				67F4F8D024C6134A00D1475B /* live_preview.entitlements */,
+				67F4F8BE24C6134A00D1475B /* Resources */,
+			);
+			path = "live-preview";
+			sourceTree = "<group>";
+		};
+		67F4F8BE24C6134A00D1475B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67F4F8D824C6135D00D1475B /* css */,
+				67F4F8DA24C6135D00D1475B /* fonts */,
+				67F4F8D924C6135D00D1475B /* html */,
+				67F4F8DB24C6135D00D1475B /* img */,
+				67F4F8DC24C6135E00D1475B /* js */,
+				67F4F8DD24C6135F00D1475B /* vendor */,
+				67F4F8BF24C6134A00D1475B /* _locales */,
+				67F4F8C124C6134A00D1475B /* images */,
+				67F4F8C324C6134A00D1475B /* manifest.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -73,15 +169,34 @@
 				67F4F89C24C6133C00D1475B /* Sources */,
 				67F4F89D24C6133C00D1475B /* Frameworks */,
 				67F4F89E24C6133C00D1475B /* Resources */,
+				67F4F8D724C6134A00D1475B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				67F4F8D224C6134A00D1475B /* PBXTargetDependency */,
 			);
 			name = asciidoctor;
 			productName = asciidoctor;
 			productReference = 67F4F8A024C6133C00D1475B /* asciidoctor.app */;
 			productType = "com.apple.product-type.application";
+		};
+		67F4F8B624C6134A00D1475B /* live-preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "live-preview" */;
+			buildPhases = (
+				67F4F8B324C6134A00D1475B /* Sources */,
+				67F4F8B424C6134A00D1475B /* Frameworks */,
+				67F4F8B524C6134A00D1475B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "live-preview";
+			productName = "live-preview";
+			productReference = 67F4F8B724C6134A00D1475B /* live-preview.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,6 +208,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					67F4F89F24C6133C00D1475B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					67F4F8B624C6134A00D1475B = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -111,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				67F4F89F24C6133C00D1475B /* asciidoctor */,
+				67F4F8B624C6134A00D1475B /* live-preview */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +241,22 @@
 			files = (
 				67F4F8A824C6133D00D1475B /* Assets.xcassets in Resources */,
 				67F4F8AB24C6133D00D1475B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F4F8B524C6134A00D1475B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F4F8E124C6135F00D1475B /* img in Resources */,
+				67F4F8E024C6135F00D1475B /* fonts in Resources */,
+				67F4F8DE24C6135F00D1475B /* css in Resources */,
+				67F4F8C224C6134A00D1475B /* images in Resources */,
+				67F4F8C424C6134A00D1475B /* manifest.json in Resources */,
+				67F4F8E324C6135F00D1475B /* vendor in Resources */,
+				67F4F8C024C6134A00D1475B /* _locales in Resources */,
+				67F4F8E224C6135F00D1475B /* js in Resources */,
+				67F4F8DF24C6135F00D1475B /* html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +272,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67F4F8B324C6134A00D1475B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F4F8BD24C6134A00D1475B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F4F8D224C6134A00D1475B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F4F8B624C6134A00D1475B /* live-preview */;
+			targetProxy = 67F4F8D124C6134A00D1475B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		67F4F8A924C6133D00D1475B /* Main.storyboard */ = {
@@ -269,6 +420,7 @@
 		67F4F8B124C6133D00D1475B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = asciidoctor/asciidoctor.entitlements;
@@ -288,6 +440,7 @@
 		67F4F8B224C6133D00D1475B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = asciidoctor/asciidoctor.entitlements;
@@ -300,6 +453,44 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.asciidoctor.asciidoctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		67F4F8D524C6134A00D1475B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "live-preview/live_preview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "live-preview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.live-preview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67F4F8D624C6134A00D1475B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "live-preview/live_preview.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "live-preview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.live-preview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -321,6 +512,15 @@
 			buildConfigurations = (
 				67F4F8B124C6133D00D1475B /* Debug */,
 				67F4F8B224C6133D00D1475B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "live-preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F4F8D524C6134A00D1475B /* Debug */,
+				67F4F8D624C6134A00D1475B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
