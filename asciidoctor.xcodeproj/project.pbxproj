@@ -14,7 +14,7 @@
 		67F4F8BA24C6134A00D1475B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F4F8B924C6134A00D1475B /* Cocoa.framework */; };
 		67F4F8BD24C6134A00D1475B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */; };
 		67F4F8C424C6134A00D1475B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8C324C6134A00D1475B /* manifest.json */; };
-		67F4F8D324C6134A00D1475B /* live-preview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67F4F8B724C6134A00D1475B /* live-preview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67F4F8D324C6134A00D1475B /* SafariExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67F4F8B724C6134A00D1475B /* SafariExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		67F4F8DE24C6135F00D1475B /* css in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8D824C6135D00D1475B /* css */; };
 		67F4F8DF24C6135F00D1475B /* html in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8D924C6135D00D1475B /* html */; };
 		67F4F8E024C6135F00D1475B /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 67F4F8DA24C6135D00D1475B /* fonts */; };
@@ -40,7 +40,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				67F4F8D324C6134A00D1475B /* live-preview.appex in Embed App Extensions */,
+				67F4F8D324C6134A00D1475B /* SafariExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,19 +48,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		67F4F8A024C6133C00D1475B /* asciidoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciidoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F4F8A024C6133C00D1475B /* Asciidoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asciidoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F4F8A324C6133C00D1475B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67F4F8A524C6133C00D1475B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67F4F8A724C6133D00D1475B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67F4F8AA24C6133D00D1475B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67F4F8AC24C6133D00D1475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F4F8AD24C6133D00D1475B /* asciidoctor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asciidoctor.entitlements; sourceTree = "<group>"; };
-		67F4F8B724C6134A00D1475B /* live-preview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "live-preview.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F4F8B724C6134A00D1475B /* SafariExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SafariExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F4F8B924C6134A00D1475B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		67F4F8C324C6134A00D1475B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		67F4F8CF24C6134A00D1475B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67F4F8D024C6134A00D1475B /* live_preview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = live_preview.entitlements; sourceTree = "<group>"; };
+		67F4F8D024C6134A00D1475B /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
 		67F4F8D824C6135D00D1475B /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
 		67F4F8D924C6135D00D1475B /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		67F4F8DA24C6135D00D1475B /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		67F4F89724C6133C00D1475B = {
 			isa = PBXGroup;
 			children = (
-				67F4F8A224C6133C00D1475B /* asciidoctor */,
-				67F4F8BB24C6134A00D1475B /* live-preview */,
+				67F4F8A224C6133C00D1475B /* Asciidoctor */,
+				67F4F8BB24C6134A00D1475B /* SafariExtension */,
 				67F4F8B824C6134A00D1475B /* Frameworks */,
 				67F4F8A124C6133C00D1475B /* Products */,
 			);
@@ -101,13 +101,13 @@
 		67F4F8A124C6133C00D1475B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67F4F8A024C6133C00D1475B /* asciidoctor.app */,
-				67F4F8B724C6134A00D1475B /* live-preview.appex */,
+				67F4F8A024C6133C00D1475B /* Asciidoctor.app */,
+				67F4F8B724C6134A00D1475B /* SafariExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67F4F8A224C6133C00D1475B /* asciidoctor */ = {
+		67F4F8A224C6133C00D1475B /* Asciidoctor */ = {
 			isa = PBXGroup;
 			children = (
 				67F4F8A324C6133C00D1475B /* AppDelegate.swift */,
@@ -117,7 +117,7 @@
 				67F4F8AC24C6133D00D1475B /* Info.plist */,
 				67F4F8AD24C6133D00D1475B /* asciidoctor.entitlements */,
 			);
-			path = asciidoctor;
+			path = Asciidoctor;
 			sourceTree = "<group>";
 		};
 		67F4F8B824C6134A00D1475B /* Frameworks */ = {
@@ -128,15 +128,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		67F4F8BB24C6134A00D1475B /* live-preview */ = {
+		67F4F8BB24C6134A00D1475B /* SafariExtension */ = {
 			isa = PBXGroup;
 			children = (
 				67F4F8BC24C6134A00D1475B /* SafariWebExtensionHandler.swift */,
 				67F4F8CF24C6134A00D1475B /* Info.plist */,
-				67F4F8D024C6134A00D1475B /* live_preview.entitlements */,
+				67F4F8D024C6134A00D1475B /* SafariExtension.entitlements */,
 				67F4F8BE24C6134A00D1475B /* Resources */,
 			);
-			path = "live-preview";
+			path = SafariExtension;
 			sourceTree = "<group>";
 		};
 		67F4F8BE24C6134A00D1475B /* Resources */ = {
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67F4F89F24C6133C00D1475B /* asciidoctor */ = {
+		67F4F89F24C6133C00D1475B /* Asciidoctor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F4F8B024C6133D00D1475B /* Build configuration list for PBXNativeTarget "asciidoctor" */;
+			buildConfigurationList = 67F4F8B024C6133D00D1475B /* Build configuration list for PBXNativeTarget "Asciidoctor" */;
 			buildPhases = (
 				67F4F89C24C6133C00D1475B /* Sources */,
 				67F4F89D24C6133C00D1475B /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				67F4F8D224C6134A00D1475B /* PBXTargetDependency */,
 			);
-			name = asciidoctor;
+			name = Asciidoctor;
 			productName = asciidoctor;
-			productReference = 67F4F8A024C6133C00D1475B /* asciidoctor.app */;
+			productReference = 67F4F8A024C6133C00D1475B /* Asciidoctor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67F4F8B624C6134A00D1475B /* live-preview */ = {
+		67F4F8B624C6134A00D1475B /* SafariExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "live-preview" */;
+			buildConfigurationList = 67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "SafariExtension" */;
 			buildPhases = (
 				67F4F8B324C6134A00D1475B /* Sources */,
 				67F4F8B424C6134A00D1475B /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = "live-preview";
+			name = SafariExtension;
 			productName = "live-preview";
-			productReference = 67F4F8B724C6134A00D1475B /* live-preview.appex */;
+			productReference = 67F4F8B724C6134A00D1475B /* SafariExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -222,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67F4F89F24C6133C00D1475B /* asciidoctor */,
-				67F4F8B624C6134A00D1475B /* live-preview */,
+				67F4F89F24C6133C00D1475B /* Asciidoctor */,
+				67F4F8B624C6134A00D1475B /* SafariExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -277,7 +277,7 @@
 /* Begin PBXTargetDependency section */
 		67F4F8D224C6134A00D1475B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67F4F8B624C6134A00D1475B /* live-preview */;
+			target = 67F4F8B624C6134A00D1475B /* SafariExtension */;
 			targetProxy = 67F4F8D124C6134A00D1475B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,16 +452,16 @@
 		67F4F8D524C6134A00D1475B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "live-preview/live_preview.entitlements";
+				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "live-preview/Info.plist";
+				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.live-preview";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.safari-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,16 +471,16 @@
 		67F4F8D624C6134A00D1475B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "live-preview/live_preview.entitlements";
+				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "live-preview/Info.plist";
+				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.live-preview";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.asciidoctor.asciidoctor.safari-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F4F8B024C6133D00D1475B /* Build configuration list for PBXNativeTarget "asciidoctor" */ = {
+		67F4F8B024C6133D00D1475B /* Build configuration list for PBXNativeTarget "Asciidoctor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67F4F8B124C6133D00D1475B /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "live-preview" */ = {
+		67F4F8D424C6134A00D1475B /* Build configuration list for PBXNativeTarget "SafariExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67F4F8D524C6134A00D1475B /* Debug */,
