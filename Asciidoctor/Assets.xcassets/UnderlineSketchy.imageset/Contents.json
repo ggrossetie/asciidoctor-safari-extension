@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "underline-sketchy.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

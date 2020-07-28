@@ -1,0 +1,64 @@
+
+/* Class = "NSTextFieldCell"; title = "Click checkbox to grant permissions"; ObjectID = "0mg-wW-btT"; */
+"0mg-wW-btT.title" = "Cocher la case
+pour activer l'extension";
+
+/* Class = "NSMenuItem"; title = "Asciidoctor for Safari"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Asciidoctor for Safari";
+
+/* Class = "NSMenuItem"; title = "Quit Asciidoctor for Safari"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quitter Asciidoctor for Safari";
+
+/* Class = "NSMenuItem"; title = "About Asciidoctor for Safari"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "À propos d'Asciidoctor for Safari";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSTextFieldCell"; title = "Asciidoctor"; ObjectID = "G0m-5k-Ni5"; */
+"G0m-5k-Ni5.title" = "Asciidoctor";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "Tout ramener au premier plan";
+
+/* Class = "NSTextFieldCell"; title = "Open settings"; ObjectID = "Mgn-7N-BKN"; */
+"Mgn-7N-BKN.title" = "Ouvrir les préférences";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "Réduire";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "Zoomer";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "Fenêtre";
+
+/* Class = "NSViewController"; title = "Asciidoctor for Safari"; ObjectID = "XfG-lQ-9wD"; */
+"XfG-lQ-9wD.title" = "Asciidoctor for Safari";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "Fenêtre";
+
+/* Class = "NSTextFieldCell"; title = "publish!"; ObjectID = "btw-Oy-7wM"; */
+"btw-Oy-7wM.title" = "publish!";
+
+/* Class = "NSTextFieldCell"; title = "write. brainstrom. convert."; ObjectID = "f1g-Vj-HWX"; */
+"f1g-Vj-HWX.title" = "write. brainstrom. convert.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "h2y-q3-8gM"; */
+"h2y-q3-8gM.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "2."; ObjectID = "j6n-Zy-m1i"; */
+"j6n-Zy-m1i.title" = "2.";
+
+/* Class = "NSButtonCell"; title = "Open settings to enable Asciidoctor"; ObjectID = "nEd-GI-gJZ"; */
+"nEd-GI-gJZ.title" = "Ouvrir les préférences pour activer Asciidoctor";
+
+/* Class = "NSTextFieldCell"; title = "1."; ObjectID = "pxE-eg-IY0"; */
+"pxE-eg-IY0.title" = "1.";
+
+/* Class = "NSMenu"; title = "Asciidoctor for Safari"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Asciidoctor for Safari";

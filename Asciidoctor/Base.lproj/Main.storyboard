@@ -105,58 +105,53 @@
                                     <rect key="frame" x="0.0" y="0.0" width="622" height="423"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-Mh-pEZ">
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-Mh-pEZ">
                                             <rect key="frame" x="42" y="189" width="19" height="23"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" title="1." id="pxE-eg-IY0">
                                                 <font key="font" metaFont="system" size="20"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VlC-hc-vTS">
-                                            <rect key="frame" x="67" y="117" width="212" height="52"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                            <textFieldCell key="cell" selectable="YES" title="Click checkbox to grant permissions" id="0mg-wW-btT">
-                                                <font key="font" metaFont="system" size="20"/>
-                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e3B-5b-qVT">
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="e3B-5b-qVT">
                                             <rect key="frame" x="213" y="352" width="196" height="34"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="192" id="JaO-Fu-MVZ"/>
+                                            </constraints>
                                             <textFieldCell key="cell" selectable="YES" title="Asciidoctor" id="G0m-5k-Ni5">
                                                 <font key="font" size="31" name="Comfortaa-Regular"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Mg-5G-Gvz">
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="6Mg-5G-Gvz">
                                             <rect key="frame" x="299" y="298" width="81" height="19"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="19" id="7yo-c3-9G1"/>
+                                                <constraint firstAttribute="width" constant="77" id="HLA-ma-8gb"/>
+                                            </constraints>
                                             <textFieldCell key="cell" selectable="YES" title="publish!" id="btw-Oy-7wM">
                                                 <font key="font" size="16" name="Comfortaa-Bold"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="5hb-5W-oNW">
+                                        <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="5hb-5W-oNW">
                                             <rect key="frame" x="20" y="277" width="582" height="5"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         </box>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYu-FU-D2y">
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wYu-FU-D2y">
                                             <rect key="frame" x="39" y="146" width="22" height="23"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" title="2." id="j6n-Zy-m1i">
                                                 <font key="font" metaFont="system" size="20"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <button identifier="OpenSettings" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ivn-AQ-mVJ">
+                                        <button identifier="OpenSettings" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ivn-AQ-mVJ">
                                             <rect key="frame" x="16" y="47" width="257" height="42"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="31" id="5eg-Ji-exC"/>
+                                            </constraints>
                                             <buttonCell key="cell" type="push" title="Open settings to enable Asciidoctor" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nEd-GI-gJZ">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
@@ -165,30 +160,81 @@
                                                 <action selector="openSafariSettings:" target="XfG-lQ-9wD" id="ZD9-ae-hPV"/>
                                             </connections>
                                         </button>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wA6-ga-HWE">
-                                            <rect key="frame" x="67" y="186" width="177" height="26"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="wA6-ga-HWE">
+                                            <rect key="frame" x="67" y="186" width="126" height="26"/>
                                             <textFieldCell key="cell" selectable="YES" title="Open settings" id="Mgn-7N-BKN">
                                                 <font key="font" metaFont="system" size="20"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nn0-eR-HAf">
+                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" id="Nn0-eR-HAf">
                                             <rect key="frame" x="274" y="-82" width="449" height="328"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="328" id="HB1-SY-Zwa"/>
+                                                <constraint firstAttribute="width" constant="449" id="Wy0-gZ-6MN"/>
+                                            </constraints>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="EnableExtension" id="ZXz-ah-Hy4"/>
                                         </imageView>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rM1-ff-zwS">
-                                            <rect key="frame" x="229" y="299" width="165" height="36"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="rM1-ff-zwS">
+                                            <rect key="frame" x="229" y="299" width="151" height="36"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="147" id="SWA-4O-LAL"/>
+                                            </constraints>
                                             <textFieldCell key="cell" selectable="YES" title="write. brainstrom. convert." id="f1g-Vj-HWX">
                                                 <font key="font" size="16" name="Comfortaa-Regular"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
+                                        <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gfc-Sc-HJO">
+                                            <rect key="frame" x="305" y="291" width="58" height="13"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="UnderlineSketchy" id="R3g-FZ-UAR"/>
+                                        </imageView>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="VlC-hc-vTS">
+                                            <rect key="frame" x="67" y="117" width="212" height="52"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="52" id="1SU-Ps-D8g"/>
+                                                <constraint firstAttribute="width" constant="208" id="8vU-91-pgY"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" selectable="YES" title="Click checkbox to grant permissions" id="0mg-wW-btT">
+                                                <font key="font" metaFont="system" size="20"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rM1-ff-zwS" firstAttribute="baseline" secondItem="6Mg-5G-Gvz" secondAttribute="firstBaseline" id="5gC-MG-73A"/>
+                                        <constraint firstItem="VlC-hc-vTS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wYu-FU-D2y" secondAttribute="trailing" constant="8" symbolic="YES" id="Fh7-UY-y68"/>
+                                        <constraint firstItem="VlC-hc-vTS" firstAttribute="firstBaseline" secondItem="wYu-FU-D2y" secondAttribute="baseline" id="I3M-j9-fTA"/>
+                                        <constraint firstItem="wYu-FU-D2y" firstAttribute="leading" secondItem="xet-kT-mEU" secondAttribute="leading" constant="41" id="I8X-Ol-xMZ"/>
+                                        <constraint firstItem="VlC-hc-vTS" firstAttribute="top" secondItem="wA6-ga-HWE" secondAttribute="bottom" constant="17" id="JaW-Kz-TYx"/>
+                                        <constraint firstItem="VlC-hc-vTS" firstAttribute="leading" secondItem="wA6-ga-HWE" secondAttribute="leading" id="Jah-YV-Sx3"/>
+                                        <constraint firstItem="Nn0-eR-HAf" firstAttribute="leading" secondItem="Ivn-AQ-mVJ" secondAttribute="trailing" constant="7" id="Jqk-Fy-iBK"/>
+                                        <constraint firstItem="VlC-hc-vTS" firstAttribute="leading" secondItem="xet-kT-mEU" secondAttribute="leading" constant="69" id="KMc-9o-es5"/>
+                                        <constraint firstItem="Nn0-eR-HAf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wA6-ga-HWE" secondAttribute="trailing" constant="8" symbolic="YES" id="L9j-lD-Cph"/>
+                                        <constraint firstItem="5hb-5W-oNW" firstAttribute="leading" secondItem="xet-kT-mEU" secondAttribute="leading" constant="20" symbolic="YES" id="LQ3-0C-XUh"/>
+                                        <constraint firstItem="cmH-Mh-pEZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xet-kT-mEU" secondAttribute="leading" constant="20" symbolic="YES" id="NgR-97-U29"/>
+                                        <constraint firstItem="e3B-5b-qVT" firstAttribute="top" secondItem="xet-kT-mEU" secondAttribute="top" constant="37" id="OKs-Hf-81K"/>
+                                        <constraint firstItem="6Mg-5G-Gvz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xet-kT-mEU" secondAttribute="leading" constant="20" symbolic="YES" id="P3L-Ta-fuz"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ivn-AQ-mVJ" secondAttribute="bottom" constant="54" id="Vdz-Gu-3pG"/>
+                                        <constraint firstAttribute="trailing" secondItem="6Mg-5G-Gvz" secondAttribute="trailing" constant="244" id="Xku-SA-XkY"/>
+                                        <constraint firstItem="5hb-5W-oNW" firstAttribute="centerX" secondItem="e3B-5b-qVT" secondAttribute="centerX" id="bHk-Zn-EjF"/>
+                                        <constraint firstItem="Ivn-AQ-mVJ" firstAttribute="leading" secondItem="xet-kT-mEU" secondAttribute="leading" constant="22" id="fP8-QG-c0j"/>
+                                        <constraint firstItem="cmH-Mh-pEZ" firstAttribute="top" secondItem="5hb-5W-oNW" secondAttribute="bottom" constant="67" id="fl4-uI-wJh"/>
+                                        <constraint firstItem="cmH-Mh-pEZ" firstAttribute="trailing" secondItem="wYu-FU-D2y" secondAttribute="trailing" id="hzw-vc-kOe"/>
+                                        <constraint firstItem="5hb-5W-oNW" firstAttribute="top" secondItem="6Mg-5G-Gvz" secondAttribute="bottom" constant="18" id="io2-0F-Q2d"/>
+                                        <constraint firstItem="Nn0-eR-HAf" firstAttribute="top" secondItem="5hb-5W-oNW" secondAttribute="bottom" constant="33" id="j32-k8-Vjn"/>
+                                        <constraint firstAttribute="trailing" secondItem="5hb-5W-oNW" secondAttribute="trailing" constant="20" symbolic="YES" id="jPY-hF-RdI"/>
+                                        <constraint firstItem="cmH-Mh-pEZ" firstAttribute="firstBaseline" secondItem="wA6-ga-HWE" secondAttribute="firstBaseline" id="kWh-FP-dd9"/>
+                                        <constraint firstAttribute="bottom" secondItem="Nn0-eR-HAf" secondAttribute="bottom" constant="-82" id="tR1-iQ-FEF"/>
+                                        <constraint firstItem="rM1-ff-zwS" firstAttribute="trailing" secondItem="6Mg-5G-Gvz" secondAttribute="trailing" id="vIP-fS-ucb"/>
+                                        <constraint firstItem="Ivn-AQ-mVJ" firstAttribute="top" secondItem="VlC-hc-vTS" secondAttribute="bottom" constant="32" id="vg7-PX-exW"/>
+                                        <constraint firstItem="rM1-ff-zwS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xet-kT-mEU" secondAttribute="leading" constant="20" symbolic="YES" id="xFl-Hc-iC8"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="VlC-hc-vTS" secondAttribute="trailing" constant="20" symbolic="YES" id="zbx-JC-EZY"/>
+                                    </constraints>
                                 </view>
                                 <color key="borderColor" name="BgColor"/>
                                 <color key="fillColor" name="BgColor"/>
@@ -203,6 +249,7 @@
     </scenes>
     <resources>
         <image name="EnableExtension" width="1772" height="1318"/>
+        <image name="UnderlineSketchy" width="134" height="13"/>
         <namedColor name="BgColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
