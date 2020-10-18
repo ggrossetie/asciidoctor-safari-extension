@@ -423,6 +423,7 @@
 				CODE_SIGN_ENTITLEMENTS = asciidoctor/asciidoctor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = asciidoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +444,7 @@
 				CODE_SIGN_ENTITLEMENTS = asciidoctor/asciidoctor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = asciidoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
