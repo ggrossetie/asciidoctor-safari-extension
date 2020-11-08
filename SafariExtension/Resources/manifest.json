@@ -1,6 +1,6 @@
 {
   "name": "Asciidoctor Live Preview",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "author": "Guillaume Grossetie",
   "manifest_version": 2,
   "description": "Render AsciiDoc (.ad, .adoc, .asc, .asciidoc) as HTML inside your browser!",
