@@ -424,6 +424,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = asciidoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +450,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = asciidoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +472,7 @@
 				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +496,7 @@
 				CODE_SIGN_ENTITLEMENTS = SafariExtension/SafariExtension.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = Z89KH78ZG5;
 				INFOPLIST_FILE = SafariExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
