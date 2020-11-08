@@ -430,6 +430,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.asciidoctor.asciidoctor;
 				PRODUCT_NAME = "Asciidoctor for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -453,6 +454,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = org.asciidoctor.asciidoctor;
 				PRODUCT_NAME = "Asciidoctor for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "";
