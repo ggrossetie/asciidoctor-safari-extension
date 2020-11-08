@@ -60,7 +60,8 @@ asciidoctor.browser.loader = (webExtension, document, location, XMLHttpRequest, 
 
   const fetchContent = async () => {
     const browserInfo = Settings.getBrowserInfo()
-    if (browserInfo.name === 'Firefox') {
+    console.log('browserInfo', browserInfo)
+    if (browserInfo.name === 'Firefox' || browserInfo.name === 'Safari') {
       // fetch the content from the content script (here)
       let textContent
       // Check if the content is available before using an AJAX query
@@ -138,7 +139,7 @@ asciidoctor.browser.loader = (webExtension, document, location, XMLHttpRequest, 
     }
     autoReloadInterval = setInterval(async () => {
       const browserInfo = Settings.getBrowserInfo()
-      if (browserInfo.name === 'Firefox') {
+      if (browserInfo.name === 'Firefox' || browserInfo.name === 'Safari') {
         const request = await Converter.executeRequest(location.href)
         reloadContent(request.responseText)
       } else {
